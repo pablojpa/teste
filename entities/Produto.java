@@ -25,6 +25,10 @@ public class Produto {
 		this.preco = preco;
 	}
 	
-	
+	public String toString() {
+		return "Nome: " + nome
+				+ ", " +
+				"preço: " + preco;
+	}
 	
 }
